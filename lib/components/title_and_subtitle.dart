@@ -16,14 +16,15 @@ class TitleSubTitle extends StatelessWidget {
         Text(
           title,
           style:
-              Theme.of(context).textTheme.headline5!.copyWith(fontSize: 20.h),
+              Theme.of(context).textTheme.headline5!.copyWith(fontSize: 18.h),
         ),
         SizedBox(
-          height: 8.h,
+          height: 4.h,
         ),
         Text(
           subTitle,
-          style: Theme.of(context).textTheme.headline6,
+          style:
+              Theme.of(context).textTheme.headline6!.copyWith(fontSize: 13.h),
         ),
       ],
     );

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:food/pages/welcome.dart';
+import 'package:food/pages/forget_password.dart';
 import 'package:food/utilits/theme.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: lightTheme,
         home: Scaffold(
-          body: Welcome(),
+          body: ForgetPassword(),
         ),
       ),
     );
